@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Алгоритмика — международная школа программирования для детей</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__icon"><i class="fas fa-code"></i></span>
+        <span class="logo__text">Алгоритмика</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#about" class="nav__link">О школе</a>
+        <a href="#courses" class="nav__link">Курсы</a>
+        <a href="#why" class="nav__link">Почему мы</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ГЕРОЙ -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <span class="hero__badge">🌍 90+ стран · 450+ городов</span>
+        <h1 class="hero__title">
+          Программирование — <span class="gradient-text">вторая грамотность</span>
+        </h1>
+        <p class="hero__desc">
+          Международная школа программирования, математики и информатики для детей 6–18 лет.
+          Учим создавать игры, сайты и приложения на интерактивной платформе.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacts" class="btn btn--primary">Записаться на пробный урок</a>
+          <a href="#courses" class="btn btn--outline">Смотреть курсы</a>
+        </div>
+        <div class="hero__stats">
+          <div class="stat">
+            <strong>1 100 000+</strong>
+            <span>выпускников</span>
+          </div>
+          <div class="stat">
+            <strong>8 лет</strong>
+            <span>на рынке</span>
+          </div>
+          <div class="stat">
+            <strong>10</strong>
+            <span>международных наград</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__card hero__card--1">
+          <i class="fas fa-gamepad"></i>
+          <span>Создание игр</span>
+        </div>
+        <div class="hero__card hero__card--2">
+          <i class="fab fa-python"></i>
+          <span>Python</span>
+        </div>
+        <div class="hero__card hero__card--3">
+          <i class="fas fa-paint-brush"></i>
+          <span>Дизайн</span>
+        </div>
+        <div class="hero__blob"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- О ШКОЛЕ -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section__title">О школе <span class="gradient-text">Алгоритмика</span></h2>
+      <div class="about-grid">
+        <div class="about-card glass">
+          <i class="fas fa-rocket"></i>
+          <h3>Современная платформа</h3>
+          <p>Собственная интерактивная образовательная платформа, включённая в реестр отечественного ПО. Обучение в индивидуальном темпе.</p>
+        </div>
+        <div class="about-card glass">
+          <i class="fas fa-brain"></i>
+          <h3>Развитие мышления</h3>
+          <p>Программирование, логика, алгоритмическое мышление и базовая компьютерная грамотность. Программы соответствуют ФГОС.</p>
+        </div>
+        <div class="about-card glass">
+          <i class="fas fa-globe"></i>
+          <h3>Международный опыт</h3>
+          <p>Более 1 млн учащихся в 97 странах. Партнёр конкурса «Учитель года России» и Российского общества «Знание».</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- КУРСЫ -->
+  <section class="section section--dark" id="courses">
+    <div class="container">
+      <h2 class="section__title section__title--light">Наши <span class="gradient-text">курсы</span></h2>
+      <div class="courses-grid">
+        <article class="course-card">
+          <div class="course-card__icon"><i class="fas fa-puzzle-piece"></i></div>
+          <h3>Основы логики и программирования</h3>
+          <p class="course-card__age">6–7 лет</p>
+          <p>Первые шаги в IT через игру: алгоритмы, последовательности, простые программы.</p>
+        </article>
+        <article class="course-card">
+          <div class="course-card__icon"><i class="fas fa-laptop"></i></div>
+          <h3>Компьютерная грамотность</h3>
+          <p class="course-card__age">7–9 лет</p>
+          <p>Устройство ПК, безопасный интернет, работа с текстом и таблицами.</p>
+        </article>
+        <article class="course-card">
+          <div class="course-card__icon"><i class="fas fa-cubes"></i></div>
+          <h3>Визуальное программирование</h3>
+          <p class="course-card__age">8–10 лет</p>
+          <p>Scratch-подобные среды, создание мультфильмов и мини-игр.</p>
+        </article>
+        <article class="course-card">
+          <div class="course-card__icon"><i class="fas fa-video"></i></div>
+          <h3>Видеоблогинг</h3>
+          <p class="course-card__age">9–11 лет</p>
+          <p>Съёмка, монтаж, сценарии и продвижение собственного контента.</p>
+        </article>
+        <article class="course-card">
+          <div class="course-card__icon"><i class="fab fa-python"></i></div>
+          <h3>Python Start</h3>
+          <p class="course-card__age">12–13 лет</p>
+          <p>Основы синтаксиса Python, решение задач, первые проекты.</p>
+        </article>
+        <article class="course-card">
+          <div class="course-card__icon"><i class="fas fa-code"></i></div>
+          <h3>Фронтенд-разработка</h3>
+          <p class="course-card__age">15–18 лет</p>
+          <p>HTML, CSS, JavaScript — создание современных веб-сайтов.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПОЧЕМУ МЫ -->
+  <section class="section" id="why">
+    <div class="container">
+      <h2 class="section__title">Почему <span class="gradient-text">выбирают нас</span></h2>
+      <div class="why-grid">
+        <div class="why-item">
+          <span class="why-item__num">01</span>
+          <h3>Игровая форма</h3>
+          <p>Дети учатся через интерактивные задания, квесты и проекты.</p>
+        </div>
+        <div class="why-item">
+          <span class="why-item__num">02</span>
+          <h3>Малые группы</h3>
+          <p>До 12 человек — педагог успевает уделить внимание каждому.</p>
+        </div>
+        <div class="why-item">
+          <span class="why-item__num">03</span>
+          <h3>Опытные преподаватели</h3>
+          <p>Более 9000 учителей повысили квалификацию в «Алгоритмике».</p>
+        </div>
+        <div class="why-item">
+          <span class="why-item__num">04</span>
+          <h3>Портфолио</h3>
+          <p>К концу курса у ребёнка есть собственные игры, сайты и проекты.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- КОНТАКТЫ -->
+  <section class="section section--dark" id="contacts">
+    <div class="container">
+      <h2 class="section__title section__title--light">Свяжитесь <span class="gradient-text">с нами</span></h2>
+      <div class="contacts-wrap">
+        <div class="contacts-info">
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Адрес</strong>
+              <p>ул. Еврова Ралшова, 21</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Телефон</strong>
+              <p><a href="tel:89667222244">8 966 722 22 44</a></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-globe"></i>
+            <div>
+              <strong>Сайт</strong>
+              <p><a href="https://grjzny.algoritmika.org" target="_blank">grjzny.algoritmika.org</a></p>
+            </div>
+          </div>
+        </div>
+        <form class="contacts-form" action="#" method="post">
+          <input type="text" placeholder="Ваше имя" required>
+          <input type="tel" placeholder="Телефон" required>
+          <input type="email" placeholder="Email">
+          <textarea rows="3" placeholder="Комментарий"></textarea>
+          <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ФУТЕР -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#" class="logo logo--footer">
+          <span class="logo__icon"><i class="fas fa-code"></i></span>
+          <span class="logo__text">Алгоритмика</span>
+        </a>
+        <p>Международная школа программирования для детей 6–18 лет. Учим создавать будущее.</p>
+        <div class="footer__social">
+          <a href="#" aria-label="VK"><i class="fab fa-vk"></i></a>
+          <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer__links">
+        <h4>Навигация</h4>
+        <a href="#about">О школе</a>
+        <a href="#courses">Курсы</a>
+        <a href="#why">Почему мы</a>
+        <a href="#contacts">Контакты</a>
+      </div>
+      <div class="footer__links">
+        <h4>Курсы</h4>
+        <a href="#">Python Start</a>
+        <a href="#">Фронтенд</a>
+        <a href="#">Геймдизайн</a>
+        <a href="#">Видеоблогинг</a>
+      </div>
+      <div class="footer__subscribe">
+        <h4>Будьте в курсе</h4>
+        <p>Подпишитесь на новости и акции школы.</p>
+        <form class="footer__form">
+          <input type="email" placeholder="Email">
+          <button type="submit"><i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2026 Алгоритмика. Все права защищены.</p>
+        <p>Сделано с ❤️ для будущих программистов</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Мобильное меню
+    const burger = document.getElementById('burger');
+    const nav = document.getElementById('nav');
+    burger.addEventListener('click', () => {
+      nav.classList.toggle('nav--open');
+      burger.classList.toggle('burger--active');
+    });
+    // Плавный скролл
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+          nav.classList.remove('nav--open');
+          burger.classList.remove('burger--active');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
