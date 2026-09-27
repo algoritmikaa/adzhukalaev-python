@@ -83,8 +83,8 @@ def click_ok():
 
 app = QApplication([])
 win = QWidget()
-win.resize(500, 300)
-win.setWindowTitle('Memory card')
+win.resize(600, 400)
+win.setWindowTitle('Карточки для запоменания')
 
 # Устанавливаем фон с градиентом от LimeGreen до GreenYellow
 win.setStyleSheet("background-color: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 LimeGreen, stop:1 GreenYellow);")
